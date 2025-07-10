@@ -131,17 +131,33 @@ const API_SITES = {
         api: 'https://www.ckzy1.com',
         name: 'CK资源',
     },
+    ckzy2: {
+        api: 'https://ckzy.me/api.php/provide/vod/?ac=list',
+        name: 'CKZY',
+    },
     jkun: {
         api: 'https://jkunzyapi.com',
         name: 'jkun资源',
+    },
+    jkun2: {
+        api: 'https://jkunzyapi.com/api.php/provide/vod',
+        name: 'jkunZY',
     },
     bwzy: {
         api: 'https://api.bwzym3u8.com',
         name: '百万资源',
     },
+    bwzy2: {
+        api: 'https://api.bwzyz.com/api.php/provide/vod/at/json/',
+        name: '百万ZY',
+    },
     souav: {
         api: 'https://api.souavzy.vip',
         name: 'souav资源',
+    },
+    souav2: {
+        api: 'https://api.souavzy.vip/api.php/provide/vod/?ac=list',
+        name: 'souavZY',
     },
     r155: {
         api: 'https://155api.com',
@@ -156,9 +172,17 @@ const API_SITES = {
         name: '黄色仓库',
         detail: 'https://hsckzy.vip'
     },
+    huangcang2: {
+        api: 'https://hsckzy888.com/api.php/provide/vod/at/json/',
+        name: '黄色仓库ZY',
+    },
     yutu: {
         api: 'https://yutuzy10.com',
         name: '玉兔资源',
+    },
+    yutu2: {
+        api: 'https://apiyutu.com/api.php/provide/vod/?ac=list',
+        name: '玉兔ZY',
     },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
